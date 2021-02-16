@@ -39,7 +39,7 @@ exports.addNote = function(req, res) {
 //PUT - Update a note that already exists
 exports.updateNote =  function(req, res) {
 
-		return Note.findById(req.params.id, asyncfunction(err, note) {
+		return Note.findById(req.params.id, async function(err, note) {
 
 			var updatedNote = new Note({
 				...note,
