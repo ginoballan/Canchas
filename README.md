@@ -8,9 +8,10 @@ Autor: Gino Ballan
 N° Legajo: 0092313  
 
 Profesor: Diego Marafetti  
-Cursada: primer cuatrimestre 2019  
+Cursada: Primer Cuatrimestre 2019 Viernes Noche  
 
 Descripción: Aplicación de notas estilo Google Keep.   
+Desarrollada utilizando Node.js, MongoDB y Express.  
 Cada nota está compuesta de:   
 - título  
 - contenido  
@@ -20,9 +21,9 @@ Cada nota está compuesta de:
 
 ### ENDPOINTS:  
   
-GET /api/notes  
-POST /api/notes  
+* GET /api/notes  
+* POST /api/notes  
   
-GET /api/notes/:id  
-PUT /api/notes/:id  
-DELETE /api/notes/:id  
+* GET /api/notes/:id  
+* PUT /api/notes/:id  
+* DELETE /api/notes/:id  
