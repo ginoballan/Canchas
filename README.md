@@ -20,9 +20,9 @@ Cada nota está compuesta de:
 
 ### ENDPOINTS:  
   
-GET    /api/notes  
-POST   /api/notes  
+GET /api/notes  
+POST /api/notes  
   
-GET    /api/notes/:id  
-PUT    /api/notes/:id  
+GET /api/notes/:id  
+PUT /api/notes/:id  
 DELETE /api/notes/:id  
