@@ -17,3 +17,12 @@ Cada nota está compuesta de:
 - autor  
 - fecha de creación  
 - fecha de última edición  
+
+### ENDPOINTS:  
+  
+GET    /api/notes  
+POST   /api/notes  
+  
+GET    /api/notes/:id
+PUT    /api/notes/:id
+DELETE /api/notes/:id
