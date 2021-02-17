@@ -21,6 +21,9 @@ require('./app/models/note.js');
 // importing routes
 const router = require("./app/routes/routes.js");
 app.use('/', router);
+app.get('/', function(req, res) {
+   res.send("NoteApp - https://github.com/ginoballan/NoteApp");
+});
 
 // Starting server
 app.listen(3000, function() {
