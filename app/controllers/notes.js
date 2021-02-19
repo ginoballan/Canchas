@@ -60,7 +60,7 @@ exports.updateNote = async function (req, res) {
 	}
 };
 
-// DELETE - Delete a Alojado with specified ID
+// DELETE - Delete a Note with specified ID
 exports.deleteNote = function (req, res) {
 	return Note.findById(req.params.id, async function (err, note) {
 		if(note == null) {
